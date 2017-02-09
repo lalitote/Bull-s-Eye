@@ -104,6 +104,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="currentRoundLabel" destination="xC3-5o-XYq" id="W3d-5L-vrM"/>
+                        <outlet property="scoreLabel" destination="K9e-rR-tDe" id="4re-ut-FtE"/>
+                        <outlet property="slider" destination="jPk-Me-Hzb" id="zfC-vA-9CL"/>
+                        <outlet property="targetLabel" destination="wuL-ip-FG1" id="KEQ-vE-6mC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
